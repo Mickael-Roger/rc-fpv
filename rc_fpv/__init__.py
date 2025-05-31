@@ -4,5 +4,4 @@
 
 __version__ = "IN_PROGRESS"
 
-from .rc_fpv import *
 
