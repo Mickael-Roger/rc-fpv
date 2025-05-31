@@ -1,12 +1,12 @@
 #!/usr/bin/env python
-"""rc-fpv extension builder and installer"""
+"""rc_fpv extension builder and installer"""
 
 import io
 import sys
 
 import setuptools
 
-name = "rc-fpv"
+name = "rc_fpv"
 desc = "A library to control Drone that is normally controled by the 'RC FPV' android app"
 
 with io.open("README.md", encoding="utf-8") as strm:
@@ -29,7 +29,7 @@ author = "Mickael Roger"
 author_email = "mickael@mickael-roger.com"
 url = "https://github.com/Mickael-Roger/rc-fpv"
 license = "Apache License Version 2.0"
-packages = ["rc-fpv"]
+packages = ["rc_fpv"]
 
 needs_pytest = set(["pytest", "test"]).intersection(sys.argv)
 pytest_runner = ["pytest_runner"] if needs_pytest else []
